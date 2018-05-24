@@ -1,0 +1,21 @@
+body{
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-effect {
+    width: 500px;
+    height: 500px;
+    background-color: #222;
+    background: url(https://bit.ly/2GHws3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.img-effect:hover {
+    background-size: 150%;
+    background-position: center;
+    box-shadow: inset 0px 0px 0px 10px #d19949;
+}
